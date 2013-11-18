@@ -1,7 +1,7 @@
 package factor
 
 import (
-	"github.com/angeldm/euler.go/util/primegen"
+	"github.com/angeldm/euler/util/primegen"
 )
 
 func FactorMap(n uint64) map[uint64]uint64 {

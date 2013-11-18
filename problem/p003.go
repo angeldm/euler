@@ -3,7 +3,7 @@
 package problem
 
 import (
-	"github.com/angeldm/euler.go/util/primegen"
+	"github.com/angeldm/euler/util/primegen"
 	"math"
 )
 

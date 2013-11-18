@@ -2,7 +2,7 @@
 package problem
 
 import (
-	"github.com/angeldm/euler.go/util/strings"
+	"github.com/angeldm/euler/util/strings"
 )
 
 func P004() int {

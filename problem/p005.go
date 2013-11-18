@@ -2,8 +2,8 @@
 package problem
 
 import (
-	"github.com/angeldm/euler.go/util/factor"
-	"github.com/angeldm/euler.go/util/math"
+	"github.com/angeldm/euler/util/factor"
+	"github.com/angeldm/euler/util/math"
 )
 
 func P005() int {

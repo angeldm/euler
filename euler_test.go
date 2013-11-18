@@ -1,7 +1,7 @@
 package euler
 
 import (
-	. "github.com/angeldm/euler.go/problem"
+	. "github.com/angeldm/euler/problem"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )
