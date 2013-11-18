@@ -1,22 +1,49 @@
-package problem
+package euler
 
 import (
+	. "github.com/angeldm/euler.go/problem"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )
 
 func Test(t *testing.T) {
-	Convey("Problem 7", t, func() {
-		So(P007(), ShouldEqual, 104743)
+	Convey("Solving Project Euler", t, func() {
+		Convey("Problem 1", func() {
+			So(P001(), ShouldEqual, 233168)
+		})
+
+		Convey("Problem 2", func() {
+			So(P002(), ShouldEqual, 4613732)
+		})
+
+		Convey("Problem 3", func() {
+			So(P003(), ShouldEqual, 6857)
+		})
+
+		Convey("Problem 4", func() {
+			So(P004(), ShouldEqual, 906609)
+		})
+
+		Convey("Problem 5", func() {
+			So(P005(), ShouldEqual, 232792560)
+		})
+
+		Convey("Problem 6", func() {
+			So(P006(), ShouldEqual, 25164150)
+		})
+
+		Convey("Problem 7", func() {
+			So(P007(), ShouldEqual, 104743)
+		})
 	})
 }
 
 // var Solutions = make([]string, 200)
 
 // func init() {
-// 	// Solutions[1] = 233168
-// 	// Solutions[2] = 4613732
-// 	// Solutions[3] = 6857
+// 	Solutions[1] = "233168"
+// 	Solutions[2] = "4613732"
+// 	Solutions[3] = "6857"
 // 	Solutions[4] = "906609"
 // 	Solutions[5] = "232792560"
 // 	Solutions[6] = "25164150"

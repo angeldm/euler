@@ -7,7 +7,7 @@ import (
 	"math"
 )
 
-func p003() int {
+func P003() int {
 
 	pg := primegen.New()
 	var max uint64

@@ -3,7 +3,7 @@
 // Find the sum of all the multiples of 3 or 5 below 1000.
 package problem
 
-func p001() int {
+func P001() int {
 	var sum int
 	for i := 1; i < 1000; i++ {
 		if i%3 == 00 || i%5 == 0 {

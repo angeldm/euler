@@ -5,7 +5,7 @@ import (
 	"github.com/angeldm/euler.go/util/strings"
 )
 
-func p004() int {
+func P004() int {
 	for i := 997; i > 99; i-- {
 		pal := strings.MakePalindromo(i)
 		for j := 999; j > 99; j-- {

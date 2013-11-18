@@ -29,7 +29,7 @@ func fibo() <-chan int {
 	return out
 }
 
-func p002() int {
+func P002() int {
 
 	fib := fibo()
 	sum := 0

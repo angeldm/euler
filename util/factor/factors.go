@@ -1,10 +1,10 @@
-package factors
+package factor
 
 import (
 	"github.com/angeldm/euler.go/util/primegen"
 )
 
-func FactorsMap(n uint64) map[uint64]uint64 {
+func FactorMap(n uint64) map[uint64]uint64 {
 	factors := make(map[uint64]uint64, 100) //Hope 100 is enough
 	pg := primegen.New()
 	for i := pg.Next(); n != 1; i = pg.Next() {
@@ -21,7 +21,7 @@ func FactorsMap(n uint64) map[uint64]uint64 {
 	return factors
 }
 
-func Factors(n uint64) []uint64 {
+func Factor(n uint64) []uint64 {
 	factors := make([]uint64, 0, 100) //Hope 100 is enough
 	pg := primegen.New()
 	for i := pg.Next(); n != 1; i = pg.Next() {
