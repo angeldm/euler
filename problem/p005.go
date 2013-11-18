@@ -3,6 +3,6 @@ package problem
 
 import ()
 
-func Solve() int {
+func p005() int {
 	return 0
 }
