@@ -1,0 +1,8 @@
+// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+package problem
+
+import ()
+
+func Solve() int {
+	return 0
+}
