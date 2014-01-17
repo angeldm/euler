@@ -1,9 +1,7 @@
-// There exists exactly one Pythagorean triplet for which a + b + c = 1000.
-// Find the product abc.
 package problem
 
-import ()
-
+// There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+// Find the product abc.
 func P009() int {
 
 	for a := 3; a < 1000; a++ {

@@ -1,10 +1,10 @@
-// Find the largest palindrome made from the product of two 3-digit numbers..
 package problem
 
 import (
 	"github.com/angeldm/euler/util/strings"
 )
 
+// Find the largest palindrome made from the product of two 3-digit numbers..
 func P004() int {
 	for i := 997; i > 99; i-- {
 		pal := strings.MakePalindromo(i)

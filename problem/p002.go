@@ -1,5 +1,3 @@
-// By considering the terms in the Fibonacci sequence whose values do not exceed four million,
-// find the sum of the even-valued terms.
 package problem
 
 func dup3(in <-chan int) (<-chan int, <-chan int, <-chan int) {
@@ -29,6 +27,8 @@ func fibo() <-chan int {
 	return out
 }
 
+// By considering the terms in the Fibonacci sequence whose values do not exceed four million,
+// find the sum of the even-valued terms.
 func P002() int {
 
 	fib := fibo()

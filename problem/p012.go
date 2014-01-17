@@ -1,4 +1,3 @@
-// What is the value of the first triangle number to have over five hundred divisors?
 package problem
 
 import (
@@ -6,6 +5,7 @@ import (
 	"github.com/angeldm/euler/util/numbers"
 )
 
+// What is the value of the first triangle number to have over five hundred divisors?
 func P012() int {
 	ch := numbers.NewTriangleGen()
 	for i := 0; ; i++ {

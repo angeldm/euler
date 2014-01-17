@@ -1,4 +1,3 @@
-// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 package problem
 
 import (
@@ -6,6 +5,7 @@ import (
 	"github.com/angeldm/euler/util/math"
 )
 
+// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 func P005() int {
 	pows := make(map[uint64]uint64)
 	for i := 2; i <= 20; i++ {

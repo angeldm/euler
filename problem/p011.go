@@ -1,4 +1,3 @@
-// Find the sum of all the primes below two million.
 package problem
 
 import (
@@ -41,6 +40,7 @@ func newVector() [20][20]int {
 	return ret
 }
 
+// Find the sum of all the primes below two million.
 func P011() int {
 	vec := newVector()
 	max, sum := 0, 0

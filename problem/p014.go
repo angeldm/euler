@@ -1,4 +1,3 @@
-// Which starting number, under one million, produces the longest chain?
 package problem
 
 func sequence(n uint64) int {
@@ -19,6 +18,7 @@ func collatz(n uint64) uint64 {
 	}
 }
 
+// Which starting number, under one million, produces the longest chain?
 func P014() uint64 {
 	max := 0
 	num := uint64(0)

@@ -1,10 +1,10 @@
-// Find the greatest product of five consecutive digits in the 1000-digit number.
 package problem
 
 import (
 	"github.com/angeldm/euler/util/strings"
 )
 
+// Find the greatest product of five consecutive digits in the 1000-digit number.
 func P008() int {
 	max := 0
 	for i := 0; i < 996; i++ {

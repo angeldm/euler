@@ -1,5 +1,3 @@
-// If we list all the natural numbers below 10 that are multiples of 3 or 5,
-// What is the largest prime factor of the number 600851475143 ?
 package problem
 
 import (
@@ -7,6 +5,8 @@ import (
 	"math"
 )
 
+// If we list all the natural numbers below 10 that are multiples of 3 or 5,
+// What is the largest prime factor of the number 600851475143 ?
 func P003() int {
 
 	pg := primegen.New()
