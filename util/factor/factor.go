@@ -2,6 +2,7 @@ package factor
 
 import (
 	"github.com/angeldm/euler/util/primegen"
+	"math"
 )
 
 func FactorMap(n uint64) map[uint64]uint64 {
@@ -37,4 +38,17 @@ func Factor(n uint64) []uint64 {
 
 	}
 	return factors
+}
+
+func NumDivisors(n uint64) uint64 {
+	//Buggy implementation, if n is a perfect square then the number of divisors will necessary be one too much
+	divisors := uint64(1)
+	for i := uint64(2); i <= uint64(math.Sqrt(float64(n))); i++ {
+		if n%i == 0 {
+			divisors++
+		}
+	}
+	divisors *= 2
+	return divisors
+
 }

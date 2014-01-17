@@ -27,3 +27,16 @@ func MakePalindromo(i int) (result int) {
 	result, _ = strconv.Atoi(a + b)
 	return
 }
+
+func StringToProduct(str string) int {
+	res := 1
+	for i := 0; i < len(str); i++ {
+		n, _ := strconv.Atoi(string(str[i]))
+		if n != 0 {
+			res = res * n
+		} else {
+			return 0
+		}
+	}
+	return res
+}

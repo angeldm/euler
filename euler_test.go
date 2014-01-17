@@ -35,6 +35,10 @@ func Test(t *testing.T) {
 		Convey("Problem 7", func() {
 			So(P007(), ShouldEqual, 104743)
 		})
+
+		Convey("Problem 8", func() {
+			So(P008(), ShouldEqual, 40824)
+		})
 	})
 }
 

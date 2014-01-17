@@ -6,8 +6,8 @@ import (
 )
 
 func Test(t *testing.T) {
-	Convey("Problem 7", t, func() {
-		So(P007(), ShouldEqual, 104743)
+	Convey("Problem 10", t, func() {
+		So(P015(), ShouldEqual, 137846528820)
 	})
 }
 
